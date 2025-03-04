@@ -435,7 +435,7 @@ h3.grade {
 .about .about-content .timeline .timeline-text {
     line-height: 25px;
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
     color: var(--text-black-700);
 }
 
@@ -653,7 +653,7 @@ h3.grade {
 }
 
 @media (max-width: 991px) {
-    .home .home-info {
+    .home .home-information {
         flex: 0 0 100%;
         max-width: 100%;
     }

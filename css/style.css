@@ -260,7 +260,7 @@ h3.grade {
 
 .home .home-img img {
     margin: auto;
-    border-radius: 5px;
+    border-radius: 15%;
     height: 350px;
 }
 
@@ -565,8 +565,8 @@ h3.grade {
 }
 
 .contact .contact-info-item {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
     text-align: center;
     margin-bottom: 60px;
 }

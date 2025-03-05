@@ -159,6 +159,12 @@ ul {
     justify-content: center;
 }
 
+li .icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Toggler design */
 
 .aside .nav-toggler span {

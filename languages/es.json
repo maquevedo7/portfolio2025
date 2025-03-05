@@ -1,0 +1,13 @@
+{
+    "aside": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "portfolio": "Portafolio",
+        "contact": "Contáctame"
+    },
+
+    "home": {
+        "title": "Hola, mi nombre es"
+    }
+}

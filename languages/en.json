@@ -1,0 +1,24 @@
+{
+    "aside": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+
+    "home": {
+        "title": "Hello, my name is",
+        "title-span": "Hiromi Acosta",
+        "text": "I'm a creative and an art lover. I'm interested in learning and the challenges that come with the new tasks. This is my portfolio. Thank you for visiting and I hope we can work together."
+    },
+
+    "about": {
+        "title": "About me",
+        "text": "I'm a Digital Arts Engineer focused on the creation of videogames. My career in Web Development began in 2021, I have learned different languages, libraries and software, such a WordPress, React and Angular. In addition, I work a lot with HTML5, CSS3, JavaScript and TypeScript"
+    },
+
+    "btns": {
+        "btn-contact": "Contáctame"
+    }
+}

@@ -33,41 +33,41 @@
                 />
                 <div class="nav-toggler"><span></span></div>
                 <ul class="nav">
-                    <li>
-                        <a href="#Home" class="active"
-                            ><i class="fa fa-home"> Home</i></a
-                        >
+                    <li class="icon-list">
+                        <i class="fa fa-home"><a href="#Home" class="active" data-section="aside" data-value="home"
+                            > Home</a
+                        ></i>
                     </li>
-                    <li>
-                        <a href="#About"><i class="icon fa fa-user" > About</i></a>
+                    <li class="icon-list">
+                        <i class="icon fa fa-user" ><a href="#About" data-section="aside" data-value="about"> About</a></i>
                     </li>
-                    <li>
-                        <a href="#Skills"><i class="fa fa-list"> Skills</i></a>
+                    <li class="icon-list">
+                        <i class="fa fa-list"><a href="#Skills" data-section="aside" data-value="skills"> Skills</a></i>
                     </li>
-                    <li>
-                        <a href="#Portfolio"><i class="fa fa-briefcase"> Portfolio</i></a>
+                    <li class="icon-list">
+                        <i class="fa fa-briefcase"><a href="#Portfolio" data-section="aside" data-value="portfolio"> Portfolio</a></i>
                     </li>
-                    <li>
-                        <a href="#Contact"><i class="fa fa-comments"> Contact</i></a>
+                    <li class="icon-list">
+                        <i class="fa fa-comments"><a href="#Contact" data-section="aside" data-value="contact"> Contact</a></i>
                     </li>
                 </ul>
             </div>
             <!-- Aside End -->
             <!-- Main Content Start -->
-            <div class="main-contest">
+            <div class="main-content">
                 <!-- Home Section Start -->
                 <section class="home section" id="Home">
                     <div class="container">
                         <div class="row">
                             <div class="home-information padd-15">
                                 <h3 class="greetings">
-                                    Hello, my name is <span>Hiromi Acosta</span>
+                                    <div data-section="home" data-value="title">Hello, my name is</div> <span>Hiromi Acosta</span>
                                 </h3>
                                 <h3 class="grade">
                                     I'm a <span class="typing"></span>
                                 </h3>
-                                <p>I'm a creative and an art lover. I'm interested in learning and the challenges that come with the new tasks. This is my portfolio. Thank you for visiting and I hope we can work together.</p>
-                                <a href="#Contact" class="btn contact"
+                                <p data-section="home" data-value="text">I'm a creative and an art lover. I'm interested in learning and the challenges that come with the new tasks. This is my portfolio. Thank you for visiting and I hope we can work together.</p>
+                                <a href="#Contact" class="btn contact" data-section="btns" data-value="btn-contact"
                                     >Contact Me</a
                                 >
                             </div>
@@ -83,7 +83,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
-                                <h2>About Me</h2>
+                                <h2 data-section="about" data-value="title">About Me</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -95,7 +95,7 @@
                                                 >Frontend Developer</span
                                             >
                                         </h3>
-                                        <p>
+                                        <p data-section="about" data-value="text">
                                             I'm a Digital Arts Engineer focused on the creation of videogames. My career in Web Development began in 2021, I have learned different languages, libraries and software, such a WordPress, React and Angular. In addition, I work a lot with HTML5, CSS3, JavaScript and TypeScript
                                         </p>
                                     </div>
@@ -502,11 +502,9 @@
         <!-- Main Container End -->
         <!-- Style switcher Start-->
         <div class="style-switcher">
-            <div class="languages">
-                <h4>Languages</h4>
-                <button class="lan-btn">ES</button>
-                <button class="lan-btn">EN</button>
-            </div>
+            <!-- <div class="lang-btn s-icon">
+                <i class="fas fa-language"></i>
+            </div> -->
             <div class="style-switcher-toggler s-icon">
                 <i class="fas fa-cog fa-spin"></i>
             </div>
@@ -516,11 +514,17 @@
             
             <h4>Theme Colors</h4>
             <div class="colors">
-                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+                <button class="color-1" onclick="setActiveStyle('color-1')"></button>
+                <button class="color-2" onclick="setActiveStyle('color-2')"></button>
+                <button class="color-3" onclick="setActiveStyle('color-3')"></button>
+                <button class="color-4" onclick="setActiveStyle('color-4')"></button>
+                <button class="color-5" onclick="setActiveStyle('color-5')"></button>
+            </div>
+
+            <h4>Languages</h4>
+            <div class="languages">
+                <button class="lang-button" data-language="es">ES</button>
+                <button class="lang-button" data-language="en">EN</button>
             </div>
         </div>
         <!-- Style switcher End-->

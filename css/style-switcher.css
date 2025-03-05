@@ -42,6 +42,10 @@
     top: 55px;
 }
 
+.style-switcher .lang-btn {
+    top: 110px;
+}
+
 .style-switcher h4 {
     margin: 0 0 10px;
     font-size: 18px;
@@ -55,11 +59,14 @@
     justify-content: space-between;
 }
 
-.style-switcher .colors span {
+.style-switcher .colors button,
+.style-switcher .languages button {
     display: inline-block;
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    border: none;
+    cursor: pointer;
 }
 
 /* Color switcher*/
